@@ -212,7 +212,7 @@ a{
 
 #about, #skills, #projects{
     margin-top: 2rem;
-    height: 80vh;
+    height: auto;
 }
 
 #contact{
@@ -487,10 +487,6 @@ a{
 }
 
 @media(max-width:1440px){
-    #projects{
-        height: 100vh;
-    }
-
     .box{
         margin-top: 2rem;
         width: 320px;
@@ -536,10 +532,6 @@ a{
 }
 
 @media(max-width:768px){
-    #about{
-        height: 110vh;
-    }
-    
     .infos{
         display: flex;
         flex-direction: column;
@@ -549,9 +541,6 @@ a{
         margin-bottom: 0;
     }
     
-    #projects{
-        height: auto;
-    }
 
     .projects-cards{
         display: grid;
@@ -629,18 +618,10 @@ a{
         padding: .5rem;
     }
 
-    #about{
-        height: auto;
-    }
-
     .infos-contact{
         display: flex;
         justify-content: space-around;
         align-items: center;
-    }
-
-    #skills{
-        height: auto;
     }
 
     .skills-info{
