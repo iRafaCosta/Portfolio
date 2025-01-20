@@ -328,7 +328,7 @@ a{
 .projects-cards{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(350px, 1fr));
-    gap: 2rem;
+    gap: 1rem;
     justify-content: center;
     margin-top: 2rem;
 }
